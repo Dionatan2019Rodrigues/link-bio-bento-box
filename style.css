@@ -120,7 +120,7 @@ a {
     font-weight: bold;
 }
 
-.name-user span {
+.name-user .description, .name-store .description {
     color: var(--color-ligth);
     font-size: 0.8rem;
 }
@@ -173,14 +173,9 @@ a {
     align-items: center;
 }
 
-.skills-icons i {
-    color: #fff;
-    font-size: 1.4rem;
-    transition: color 0.3s;
-}
-
-.skills-icons i:hover {
-    cursor: pointer;
+.skills-icons img {
+  width: 32px;
+  border-radius: 50%;
 }
 
 /****************** WIDGET 3 */
@@ -257,23 +252,23 @@ a {
     color: var(--color-brown);
 }
 
-.redes-sociais .whatsapp:hover i {
-    color: #25D366;
+.redes-sociais .whatsapp i {
+  color: #25d366;
     transition: color 0.3s;
 }
 
-.redes-sociais .instagram:hover i {
-    color: #E1306C;
+.redes-sociais .instagram i {
+  color: #e1306c;
     transition: color 0.3s;
 }
 
-.redes-sociais .facebook:hover i {
+.redes-sociais .facebook i {
     color: #3b5998;
     transition: color 0.3s;
 }
 
-.redes-sociais .pix:hover i {
-    color: #000;
+.redes-sociais .pix i {
+  color: var(--color-ligth);
     transition: color 0.3s;
 }
 
@@ -311,6 +306,40 @@ a {
 }
 
 .destaque {
+  color: var(--color-brown);
+}
+
+/****************** WIDGET 5 */
+.widget5 {
+    width: 100%;
+    height: 16%;
+    background-color: var(--color-black);
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-white);
+    padding: 1rem;
+}
+
+.store {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: .8rem;
+}
+
+.store img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.store .name-store h1 {
+    font-weight: bold;
+    font-size: 1rem;
     color: var(--color-brown);
 }
 

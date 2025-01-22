@@ -1,19 +1,20 @@
 
 # Imagem do Projeto
-![imagem do projeto](./img/rm-dev-link-bio-2.0.png "Link Bio RM Dev 2.0")
+![imagem do projeto](./images/dc-tele-entregas-link-bio.png "Link Bio DC Tele Entregas")
 
-# Meus Links - Ricardo Moura│Dev
+# Link Biografia - DC Tele Entregas
 
-Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links importantes e destacar habilidades e projetos. A página inclui widgets com informações pessoais, habilidades técnicas, links para redes sociais, e muito mais.
+Este site, originalmente criado por <a href="https://github.com/RicardoMouraa">Ricardo Moura</a> como um hub de links, passou por uma adaptação para atender às necessidades de uma empresa de tele-entregas. As modificações incluíram uma reformulação visual completa, com a adição de elementos gráficos e interativos mais adequados ao novo propósito. Além disso, foi implementada uma funcionalidade que permite aos usuários acessarem diretamente o WhatsApp das lojas parceiras, facilitando a realização de pedidos. 
 
 ## Características
 
 - **Loading Screen Customizado:** Uma tela de carregamento animada que mostra o progresso em porcentagem até que o site esteja completamente carregado.
-- **Perfil do Usuário:** Informações do desenvolvedor com foto, nome e título.
-- **Habilidades Técnicas:** Ícones de tecnologias que destacam as hard skills do desenvolvedor.
-- **Links para Redes Sociais:** Links diretos para TikTok, Instagram, GitHub e LinkedIn.
-- **Widget de Marca Pessoal:** Link para a página do Instagram da marca Tread Skateboard.
-- **Portfólio e Freelancer:** Links para o site de portfólio pessoal e um site com recursos para freelancers.
+- **Perfil da Empresa:** Informações da empresa com logo, nome e descrição.
+- **Lojas Parceiras:** Ícones das logotipos de cada loja parceira destacando a confiabilidade nas entregas.
+- **Links para Redes Sociais:** Links diretos para WhatsApp, Instagram Facebook.
+- **Botão para cópia da Chave Pix:** Botão que realiza a copia para área de tranferência da chave pix da empresa.
+- **Widget de Horário de Atendimento:** Área reserva para as informações dos horários de atendimentos.
+- **Site da Empresa:** Link para o site da empresa.
 
 ## Tecnologias Utilizadas
 
@@ -29,13 +30,18 @@ Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links im
 /projeto
 |-- index.html
 |-- style.css
-|-- animationLoading.js
-|-- /img
-    |-- user-perfil.png
-    |-- smile-icon.png
+|-- script.js
+|-- /images
+    |-- dc-tele-entregas-link-bio.png
+    |-- logo-dc.png
     |-- web-black-icon.png
     |-- web-white-icon.png
-    |-- tread-skateboard.jpg
+    |-- wheel-icon.svg
+    |-- /lojas
+        |-- cacau.png
+        |-- casachina.png
+        |-- (...)
+        |-- vini.png
 ```
 
 ## Como Usar
@@ -48,9 +54,16 @@ Este é um site pessoal desenvolvido por Ricardo Moura para centralizar links im
 
 Contribuições são sempre bem-vindas! Se você tem alguma sugestão para melhorar este projeto, sinta-se à vontade para fazer um fork do repositório e enviar sua pull request.
 
-## Autor
+## Autor do Site Original
 
 **Ricardo Moura**
 - [Perfil no GitHub](https://github.com/RicardoMouraa)
 - [LinkedIn](https://www.linkedin.com/in/ricardomouradev/)
 - [Instagram](https://www.instagram.com/riicardomoura/)
+
+## Autor do Fork
+
+**Dionatan Rodrigues**
+- [Perfil no GitHub](https://github.com/Dionatan2019Rodrigues)
+- [LinkedIn](https://www.linkedin.com/in/dionatan-eduardo-correa-rodrigues-76b507255/)
+

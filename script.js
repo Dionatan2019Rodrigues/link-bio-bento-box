@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 const writeTextOnTheClipboard = async () => {
   try {
-    const pix_key = "55984283286";
+    const pix_key = "55996531135";
     await navigator.clipboard.writeText(pix_key);
     alert("Chave pix copiada com sucesso");
   } catch (e) {
